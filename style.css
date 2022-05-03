@@ -307,7 +307,29 @@ body.dark .switch::before{
 body.dark .home .text{
     color: var(--text-color);
 }
-
-#theadamposter{
-  left: 500%;
+.movieimg{
+  float: left;
+  border: solid white;
+  border-radius: 45px;
+  border-width: 5px;
+  width: 200px;
+  height: 400px;
+}
+.movieimg a img{
+  width: 200px;
+  height: 300px;
+}
+.movieimg p{
+  width: 150px;
+  color: var(--text-color);
+  position: relative;
+  left: 5px;
+  right: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+.movieimg h1{
+  color: var(--text-color);
+  position: relative;
+  left: 10px;
+  bottom: 10px;
 }
